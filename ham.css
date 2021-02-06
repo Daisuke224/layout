@@ -101,16 +101,27 @@ main div {
   font-weight: bold;
   font-size: 2rem;
   font-family: Quicksand, sans-serif;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
+  top: 45%;
+  left: 40%;
+  /* -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   margin: 0;
   padding: 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 /* 画像に文字いれ */
+
+/* 文字を回転 */
+.text {
+  text-align: center;
+  transform: rotateX(0deg);
+  transition: all 1s;
+}
+.text:hover {
+  transform: rotateX(360deg);
+}
+/* 文字を回転 */
 
 /* レスポンス対応 */
 @media screen and (max-width: 720px) {
@@ -192,7 +203,7 @@ main div {
   aside div a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
   }
   .link {
     margin: 0 auto;
