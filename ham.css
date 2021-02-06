@@ -3,7 +3,7 @@ body {
   margin: 0;
   display: flex;
   min-height: 100vh;
-  /* background: #0000; */
+  /* background: #000; */
 }
 main {
   width: 700px;
@@ -116,6 +116,7 @@ main div {
   body {
     width: 100%;
     height: auto;
+    /* background: #fff; */
   }
   * {
     box-sizing: border-box;
@@ -188,7 +189,7 @@ main div {
   }
   aside div a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 20px;
   }
   .link {
