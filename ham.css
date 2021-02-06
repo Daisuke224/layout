@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   /* background: #000; */
 }
+
 main {
   width: 700px;
   flex: 1;
@@ -136,7 +137,8 @@ main div {
   }
   aside {
     position: absolute;
-    left: -300px;
+    left: -600px;
+    width: 80%;
     height: 100%;
     transition: all 0.2s;
     background-image: url(asi.jpg);
