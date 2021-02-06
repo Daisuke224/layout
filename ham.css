@@ -143,7 +143,7 @@ main div {
     transition: all 0.2s;
     background-image: url(asi.jpg);
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.8;
   }
   input[type="checkbox"]:checked ~ aside {
     left: 0;
