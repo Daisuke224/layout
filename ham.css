@@ -112,7 +112,25 @@ main div {
 }
 /* 画像に文字いれ */
 
-/* 文字を回転 */
+/* ホバーでasideを透明にする */
+/* nav ul li {
+  transition: 0.05s; 変化するスピード
+} */
+nav ul li:hover {
+  opacity: 0.5;
+}
+/* div p {
+  transition: 0.05s;
+} */
+aside div p:hover {
+  opacity: 0.5;
+}
+.link a:hover {
+  opacity: 0.8;
+}
+/* ホバーでasideを透明にする */
+
+/* 画像の中の文字を回転 */
 .text {
   text-align: center;
   transform: rotateX(0deg);
@@ -121,7 +139,7 @@ main div {
 .text:hover {
   transform: rotateX(360deg);
 }
-/* 文字を回転 */
+/* 画像の中の文字を回転 */
 
 /* レスポンス対応 */
 @media screen and (max-width: 720px) {
