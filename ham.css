@@ -139,7 +139,7 @@ main div {
     height: 100%;
     transition: all 0.2s;
     background-image: url(asi.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     opacity: 0.6;
   }
   input[type="checkbox"]:checked ~ aside {
@@ -179,7 +179,7 @@ main div {
     margin: 0 auto;
   }
   .rogo {
-    width: 120px;
+    width: 100px;
     height: auto;
     margin-left: 16px;
   }
