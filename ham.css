@@ -141,6 +141,9 @@ aside div p:hover {
 }
 /* 画像の中の文字を回転 */
 
+/* トップ画像をスライド */
+/* トップ画像をスライド */
+
 /* レスポンス対応 */
 @media screen and (max-width: 720px) {
   body {
@@ -170,7 +173,7 @@ aside div p:hover {
     width: 80%;
     height: 100%;
     transition: all 0.2s;
-    background-image: url(asi.jpg);
+    background-image: url(aside1.jpg);
     background-size: cover;
     opacity: 0.8;
   }
